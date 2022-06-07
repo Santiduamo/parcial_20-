@@ -1,0 +1,156 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+    
+    background-image: url(itm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    position:absolute;
+    z-index: -80;
+    
+    font-size: 19px;
+    
+}
+
+body::before{
+    content: "";
+    width: 100%;
+    
+    height: 100%;
+	position: absolute;
+
+	top: 0px;
+	left: 0px;
+    background: rgb(85, 105, 148);
+	
+	opacity: 0.4;
+	z-index: -20;
+    
+}
+
+header{
+    margin-top: -15px;
+    background-color: rgba(42, 74, 255, 0.822);
+    box-shadow: 0px 1.5px 10px white;
+    
+    
+    
+    
+}
+.contenidoHeader{
+    width: 95%;
+    margin: auto;
+    height: 90px;
+    
+}
+
+
+.contenidoHeader{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 1px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .tituloLibro h1 {
+    margin-top: 10px;
+    color: red;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+} */
+
+
+
+.fondoDescargaContenido{
+    border-radius: 10px;
+    
+    position: relative;
+    top: 50px;
+    margin: auto;
+    width: 95%;
+    height: 1000px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.452);
+   box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.479);
+}
+
+
+
+
+
+.fondoContenido{
+    margin-top: 25px;
+    width: 95%;
+    position: relative;
+    left: 18px;
+    background-color: rgba(255, 255, 255, 0.513);
+    display: flex;
+    float: left;
+    margin: 20px;
+    padding: 7px;
+    border-radius: 8px;
+    
+    
+
+
+    z-index: -20;
+    
+   
+    
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+   
+    
+    
+}
+.contenidoDescargaLibro .imagenLibro{
+    float: left;
+}
+.contenidoDescargaLibro{
+    width: 30%;
+    margin-left: 25px;
+    margin-top: 10px;
+    
+
+    
+}
+ .fondoContenido .imagenLibro img{
+    width: 100%;
+    margin-left: -25px;
+    top: 25px;
+}
+
+ .reseñaLibro  h6{
+     color: red;
+     text-shadow: 1px 1px 1px black;
+     font-size: 20px;
+ }
+
+
+.imagenApoyo{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    border-radius: 5px;
+
+    
+
+ }
+
